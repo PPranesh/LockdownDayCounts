@@ -16,8 +16,8 @@ html {
 .container {
 	position: absolute;
 	top: 80px;
-	left: 100px;
-	right: 100px;
+	left: 80px;
+	right: 80px;
 	bottom: 80px;
 	background-attachment: fixed;
 	display: flex;
@@ -30,7 +30,7 @@ html {
 
 .container h2 {
 	text-align: center;
-	font-size: 9vw;
+	font-size: 8vw;
 	line-height: 0.7em;
 	color: #FFF;
 	margin-top: -80px;
@@ -50,27 +50,27 @@ html {
 
 .countdown div {
 	position: relative;
-	width: 150px;
-	height: 100px;
+	width: 120px;			
+	height: 90px;
 	line-height: 100px;
 	text-align: center;
 	background: #FFF;
 	color: #000;
 	margin: 0 15px;
-	font-size: 3em;
+	font-size: 4.5vw;
 	font-weight: 500;
 }
 
 .countdown div:before {
-	content: '1';
+	content: '';
 	position: absolute;
 	bottom: -30px;
 	left: 0;
-	width: 100%;
+	width: 120px;
 	height: 35px;
 	background: #FF0;
 	color: #000;
-	font-size: 0.40em;
+	font-size: 0.50em;	
 	line-height: 35px;
 	font-weight: 300;
 }
